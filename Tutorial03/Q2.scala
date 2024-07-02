@@ -3,6 +3,6 @@ object Q2 extends App {
         list.filter(_.length > 5)
     }
 
-    val list = List("Hello", "World", "Scala", "Programming", "Language", "Functional", "Object", "Oriented")
+    val list = List("apple", "cherry", "papaya", "orange", "banana", "mango")
     println(filterStrings(list))
 }
