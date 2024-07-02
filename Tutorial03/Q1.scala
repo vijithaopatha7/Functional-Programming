@@ -5,8 +5,7 @@ object Q1{
   }
 
   def main(args: Array[String]): Unit= {
-    println("Enter a string: ")
-    val s = scala.io.StdIn.readLine()
+    val s = "hello"
     println(reverseString(s))
   }
 }
