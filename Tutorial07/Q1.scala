@@ -1,6 +1,6 @@
 object Main{
     def filterEvenNumbers(numbers: List[Int]): List[Int] = {
-    numbers.filter(num => num % 2 == 0)
+    numbers.filter((num:Int) => num % 2 == 0)
     }
 
     def main(args: Array[String]): Unit = {

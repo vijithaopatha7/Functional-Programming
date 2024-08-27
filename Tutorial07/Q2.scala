@@ -1,6 +1,6 @@
 object Main{
     def calculateSquare(numbers: List[Int]): List[Int] = {
-    numbers.map(num => num * num)
+    numbers.map((num:Int) => num * num)
     }
 
     def main(args: Array[String]): Unit = {
